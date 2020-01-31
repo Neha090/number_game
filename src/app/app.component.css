@@ -1,0 +1,12 @@
+.heading
+{
+   color :maroon;
+   text-align: center;
+   font-size: 100px;
+}
+
+.border
+{
+    color:white;
+    background-color: maroon;
+}

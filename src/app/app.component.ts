@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project';
+ // title = 'project';
+
+ num =0 ;
+
+ constructor() {
+   this.num=3;
+ }
+
+ onadd()
+ {
+     this.num=this.num+1;
+ }
+
+ onsub()
+ {
+   this.num=this.num-1;
+ }
 }
